@@ -195,3 +195,16 @@ footer {
 .social-links i:hover {
     color: rgba(255, 231, 195, 0.5);
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 0;
+    line-height: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
