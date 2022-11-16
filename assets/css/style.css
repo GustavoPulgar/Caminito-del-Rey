@@ -7,7 +7,7 @@
 }
 
 body {
-    color: black;
+    color: #212121;
 }
 
 /* header */
@@ -64,7 +64,7 @@ nav {
     font-weight: 400;
     font-size: 120%;
     letter-spacing: 2px;
-    color: black;
+    color: #212121;
 }
 
 /* left section */
@@ -90,7 +90,8 @@ nav {
     font-family: 'Roboto', 'Cabin', sans-serif;
     font-weight: 900;
     font-size: 500%;
-    color: #563a11;
+    line-height: 100%;
+    color: #212121;
 }
 
 #big-letters p {
@@ -116,7 +117,7 @@ nav {
     position: absolute;
     top: 75px; right: 0px;
     overflow: hidden;
-    background: url('../images/bridge1.jpg') no-repeat center center;
+    background: url('../images/bridge1.jpg') no-repeat 55% 40%;
 
 
 /* footer */
