@@ -102,14 +102,15 @@ nav {
     height: 50%;
     position: absolute;
     top: 15%;
-    left: 7%;
+    left: 10%;
+    float: left;
 }
 
 #big-letters > h2 {
     font-family: 'Roboto', 'Cabin', sans-serif;
     font-weight: 900;
-    font-size: 450%;
-    line-height: 100%;
+    font-size: 500%;
+    line-height: 110%;
     color: #212121;
 }
 
@@ -118,12 +119,32 @@ nav {
     color: #e3120a;
 }
 
-#button { 
-    height: 40px;
-    width: 40px;
+/* learn more */
+
+#learn-more {
     position: absolute;
-    top: 85%;
-    left: 50%;
+    right: 0;
+    bottom: 5%;
+    padding: 10px;
+    background-color: #212121;
+    border: 4px solid #212121;
+}
+
+#learn-more:hover{
+    background-color: #ffe7c3;
+    border: 4px solid #212121;
+}
+
+#learn-more a:hover {
+    color: #212121;
+}
+
+#learn-more a {
+    font-family: 'Roboto', 'Cabin', sans-serif;
+    font-size: 190%;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffe7c3;
 }
 
 /* section right */
