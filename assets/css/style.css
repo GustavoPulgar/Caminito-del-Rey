@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -21,14 +21,14 @@ header {
 /* headings and logo */
 
 #logo {
-    height: 75px;
+    height: inherit;
     width: 20%;
     text-decoration: none;
     background-color: #f20d0d;
     color: white;
     position: absolute;
 
-    font-family: 'Vollkorn', serif;
+    font-family: 'Lora', 'Vollkorn', serif;
     font-weight: 900;
     line-height: 200%;
     text-align: center;
@@ -41,10 +41,30 @@ header {
 
 /* navigation links */
 
+nav {
+    
+    height: inherit;
+    width: 80%;
+    background-color: inherit;
+    position: absolute;
+    right: 0;
+}
 #menu li {
+    line-height: 75px;
+    width: 15%;
     float: right;
-    list-style: none;
-    background-color: greenyellow;
+    list-style-type: none;
+    /* background-color: teal; 
+    */
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: 'Roboto', 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 2px;
+    color: black;
 }
 
 /* left section */
@@ -55,8 +75,36 @@ header {
     position: absolute;
     top: 75px; left: 0px;
     overflow:hidden;
-    background-color: beige;
+    background-color: #ffe7c3;
 }
+
+#big-letters {
+    width: 75%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+
+#big-letters > h2 {
+    font-family: 'Roboto', 'Cabin', sans-serif;
+    font-weight: 900;
+    font-size: 500%;
+    color: #563a11;
+}
+
+#big-letters p {
+    color: #e3120a;
+}
+
+#small-letters {
+    width: 30%;
+    height: 20%;
+    position: relative;
+    bottom: 0px;
+    background-color: green;
+}
+
+
 
 /* section right */
 
