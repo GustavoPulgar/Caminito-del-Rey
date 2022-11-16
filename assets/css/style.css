@@ -155,7 +155,12 @@ nav {
     position: absolute;
     top: 75px; right: 0px;
     overflow: hidden;
-    background: url('../images/martin-olsson-Hui7hHJtils-unsplash\ \(1\).jpg') no-repeat center center
+
+    background-image: url("../images/AdobeStock_249241752.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+
 }
 
 
