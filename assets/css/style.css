@@ -237,6 +237,29 @@ footer {
     background-color: rgba(255, 231, 195, 0.25);
 }
 
+/* history */
+
+#center {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    background-color: blueviolet;
+}
+
+.center-bubble {
+    position: relative;
+}
+
+#contents {
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: aqua;
+}
+
 /* gallery */
 
 #photos {
