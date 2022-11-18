@@ -25,7 +25,7 @@ header {
     height: 75px;
     width: 25%;
     text-decoration: none;
-    background-color: #e3120a;
+    background-color: #ea473c;
     color: white;
     position: fixed;
     top: 10px;
@@ -85,46 +85,34 @@ nav {
 }
 
 .active {
-    border-top: 5px solid #e3120a;
+    border-top: 5px solid #ea473c
 }
 
 /* left section */
 
-/*#section-left {
-    height: 70%;
-    width: 50%;
-    position: absolute;
-    top: 75px; left: 0;
-    overflow:hidden;
-    background-color: white;
-}*/
-
 #big-letters {
     width: 50%;
     height: 800px;
-    position: absolute;
+    position: relative;
     left: 0;
-    background-color: aqua;
 }
 
 #big-letters > h2 {
-    width: 100%;
+    width: 75%;
     height: 100%;
     font-family: 'Roboto', 'Cabin', sans-serif;
     font-weight: 900;
-    font-size: 500%;
+    font-size: 600%;
     line-height: 110%;
-    color: white;
-    z-index: 1;
+    color: #212121;
+    position: absolute;
+    left: 10%;
+    top: 10%;
 }
 
 #big-letters span {
-    font-size: 60%;
+    color: #ea473c;
 }
-
-#big-letters p {
-    color: #e3120a;
-} */
 
 /* learn more */
 
@@ -176,22 +164,6 @@ nav {
     overflow: hidden;
 
 }
-
-/* section right */
-
-/* #section-right {
-    height: 600px;
-    width: 50%;
-    position: absolute;
-    top: 75px; right: 0px;
-    overflow: hidden;
-
-    background-image: url("../images/main-image.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 20% 50%;
-} */
-
 
 /* footer */
 
