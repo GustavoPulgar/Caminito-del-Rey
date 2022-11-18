@@ -21,29 +21,6 @@ header {
     left: 0;
 }
 
-/* #crown-left, #crown-right > i {
-    color: white;
-    font-size: 300%;
-} 
-
-#crown-left {
-    height: 40px;
-    width: 15px;
-    position: fixed;
-    top: 20px;
-    left: 10%;
-    z-index: 1;
-}
-
-#crown-right {
-    height: 40px;
-    width: 15px;
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    z-index: 1;
-} */
-
 #logo {
     height: 75px;
     width: 25%;
@@ -108,7 +85,7 @@ nav {
 }
 
 .active {
-    border-top: 7px solid #e3120a;
+    border-top: 5px solid #e3120a;
 }
 
 /* left section */
@@ -123,20 +100,22 @@ nav {
 }*/
 
 #big-letters {
-    width: 75%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    top: 15%;
-    left: 10%;
-    float: left;
+    top: 10%;
+    left: 20px;
 }
 
 #big-letters > h2 {
+    width: 100%;
+    height: 100%;
     font-family: 'Roboto', 'Cabin', sans-serif;
     font-weight: 900;
     font-size: 500%;
     line-height: 110%;
-    color: #212121;
+    color: wheat;
+    z-index: 1;
 }
 
 #big-letters span {
@@ -147,7 +126,7 @@ nav {
 
 #big-letters p {
     color: #e3120a;
-}
+} */
 
 /* learn more */
 
@@ -177,18 +156,26 @@ nav {
     color: #ffe7c3;
 }
 
-/* middle section */
+/* main section */
 
-#middle {
+#main {
     width: 100%;
-    height: 600px;
+    height: 800px;
     position: relative;
-    top: 85px;
+    top: 95px;
 }
 
 #homepage-image {
-    width: 100px;
-    height: 600px;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    
+    background-image: url('../images/main-image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+
 }
 
 /* section right */
@@ -211,10 +198,10 @@ nav {
 
 footer {
     width: 100%;
-    height: 40px;
+    height: 30px;
     position: fixed;
     bottom: 0;
-    background-color: #1f2e7a;
+    background-color: white;
     z-index: 1;
 }
 
@@ -224,14 +211,13 @@ footer {
 
 .social-links > li {
     list-style-type: none;
-    padding: 7px 10px 0;
+    padding: 5px 15px 0;
     display: inline-block;
-    z-index: 2;
 }
 
 .social-links i {
-    font-size: 160%;
-    color: white;
+    font-size: 130%;
+    color: #212121;
     z-index: 2;
 }
 
