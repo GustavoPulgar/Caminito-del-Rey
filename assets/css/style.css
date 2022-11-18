@@ -100,11 +100,11 @@ nav {
 }*/
 
 #big-letters {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 800px;
     position: absolute;
-    top: 10%;
-    left: 20px;
+    left: 0;
+    background-color: aqua;
 }
 
 #big-letters > h2 {
@@ -114,14 +114,12 @@ nav {
     font-weight: 900;
     font-size: 500%;
     line-height: 110%;
-    color: wheat;
+    color: white;
     z-index: 1;
 }
 
 #big-letters span {
     font-size: 60%;
-    position: relative;
-    bottom: 5px;
 }
 
 #big-letters p {
@@ -166,9 +164,10 @@ nav {
 }
 
 #homepage-image {
-    width: inherit;
-    height: inherit;
-    position: relative;
+    width: 50%;
+    height: 800px;
+    position: absolute;
+    right: 0;
     
     background-image: url('../images/main-image.jpeg');
     background-repeat: no-repeat;
