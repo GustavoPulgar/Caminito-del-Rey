@@ -220,13 +220,14 @@ footer > ul, li {
 }
 
 #center h2 {
-    font-size: 250%;
+    font-size: 300%;
     font-weight: bolder;
     font-family: 'Lora', sans-serif;
     min-width: 50%;
     width: 1px;
     margin-inline: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #center h3 {
@@ -267,10 +268,9 @@ footer > ul, li {
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
     margin-inline: auto;
-    margin-top: 20px;
 }
 
-#contents > h2 {
+#contents > h3 {
     font-family: 'Roboto', 'Cabin', sans-serif;
     text-align: center;
     font-weight: 300;
