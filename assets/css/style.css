@@ -239,6 +239,15 @@ footer > ul, li {
     border-top: 1px solid #212121;
 }
 
+#center p {
+    font-size: 120%;
+    line-height: 30px;
+}
+
+#center span {
+    font-size: 160%;
+}
+
 .center-bubble {
     width: 80%;
     height: auto;
@@ -258,19 +267,20 @@ footer > ul, li {
 }
 
 #introduction {
-    width: 50%;
+    width: 40%;
     height: auto;
     position: absolute;
-    right: -15%;
-    top: 70px;
+    right: 5%;
+    top: 50px;
+    overflow-wrap: break-word;
 }
 
 #contents {
     width: 40%;
     height: 300px;
     position: absolute;
-    left: 10%;
-    top: 70px;
+    left: 5%;
+    top: 50px;
     padding: 20px;
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
