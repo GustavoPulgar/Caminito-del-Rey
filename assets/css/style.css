@@ -13,7 +13,7 @@ body {
 /* header, logo and ribbon */
 
 header {
-    height: 10%;
+    height: 90px;
     width: 100%;
     background-color: white;
     border-bottom: 1px solid #212121;
@@ -23,7 +23,7 @@ header {
 }
 
 #logo {
-    height: 10%;
+    height: inherit;
     width: 35%;
     text-decoration: none;
     background-color: #ea473c;
@@ -48,10 +48,11 @@ header {
 /* navigation links */
 
 nav {
-    height: 10%;
+    height: inherit;
     width: 65%;
     position: fixed;
     right: 0;
+    background-color: white;
 }
 
 #logo, #menu li {
@@ -208,22 +209,14 @@ footer > ul, li {
 
 #history-main {
     width: 100%;
-    position: absolute;
-    top: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 #center {
     width: 50%;
-    position: absolute;
-    left: 25%;
-}
-
-#left-margin {
-    width: 15%;
-    height: ;
-    position: absolute;
-    left: 0;
-    background-color: #ffe7c3;
+    margin-inline: auto;
+    background-color: white;
 }
 
 #center h2 {
@@ -244,18 +237,19 @@ footer > ul, li {
 /* index table and introduction */
 
 #contents-intro {
-    width: 100%;
-    height: 425px;
+    width: 100%;;
 }
 #contents {
-    width: 40%;
+    width: 1px;
+    min-width: 375px;
     height: auto;
-    position: absolute;
     left: 5%;
     top: 60px;
     padding: 20px 20px 60px;
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
+    margin-inline: auto;
+    margin-bottom: 5%;
 }
 
 #contents > h2 {
@@ -286,33 +280,11 @@ footer > ul, li {
     color: #212121;
 }
 
-#intro {
-    width: 40%;
-    height: auto;
-    position: absolute;
-    right: 5%;
-    top: 60px;
-    overflow-wrap: break-word;
-}
-
 #section-big-box {
     width: 100%;
     height: auto;
 }
 
-#section-big-box p {
-padding: 20px 0;
-}
-
-/* divs in lower part of history */
-
-#lower-part {
-    width: 80%;
-    height: auto;
-    position: absolute;
-    left: 10%;
-    top: 60%;
-}
 /* gallery */
 
 #photos {
