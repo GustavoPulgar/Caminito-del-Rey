@@ -239,6 +239,12 @@ footer > ul, li {
     border-top: 1px solid #212121;
 }
 
+#center h2 {
+    text-align: center;
+    font-family: 'Roboto', 'Cabin', sans-serif;
+    text-decoration: underline;
+}
+
 #center p {
     font-size: 120%;
     line-height: 30px;
@@ -248,40 +254,19 @@ footer > ul, li {
     font-size: 160%;
 }
 
-.center-bubble {
-    width: 80%;
-    height: auto;
-    position: relative;
-}
+/* index table and introduction */
 
-.center-bubble p {
-    font-family: 'Lora', 'Vollkorn', sans-serif;
-    font-size: 110%;
-    color: #212121;
-    line-height: 160%;
+#contents-intro {
+    width: 100%;
+    height: 425px;
 }
-
-.center-bubble p span {
-    font-size: 160%;
-    font-weight: bolder;
-}
-
-#introduction {
-    width: 40%;
-    height: auto;
-    position: absolute;
-    right: 5%;
-    top: 50px;
-    overflow-wrap: break-word;
-}
-
 #contents {
     width: 40%;
-    height: 300px;
+    height: auto;
     position: absolute;
     left: 5%;
-    top: 50px;
-    padding: 20px;
+    top: 60px;
+    padding: 20px 20px 60px;
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
 }
@@ -295,9 +280,11 @@ footer > ul, li {
 }
 
 #contents > ol {
+    width: 80%;
+    height: auto;
     line-height: 30px;
     position: relative;
-    top: 10px;
+    top: 20px;
     left: 30px;
 }
 
@@ -311,6 +298,32 @@ footer > ul, li {
     text-decoration: none;
     color: #212121;
 }
+
+#intro {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    top: 60px;
+    overflow-wrap: break-word;
+}
+
+#construction-main {
+    width: 100%;
+    height: 100px;
+}
+
+#construction {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+}
+
+/* history sections */
+
+
+
 
 /* divs in lower part of history */
 
