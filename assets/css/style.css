@@ -13,12 +13,11 @@ body {
 /* header, logo and ribbon */
 
 header {
-    height: 90px;
+    height: 95px;
     width: 100%;
     background-color: white;
     border-bottom: 1px solid #212121;
     position: fixed;
-    top: 0;
     z-index: 1;
 }
 
@@ -51,7 +50,7 @@ header {
 
 nav {
     height: inherit;
-    width: 65%;
+    width: auto;
     position: fixed;
     right: 0;
     background-color: white;
@@ -63,7 +62,7 @@ nav {
 
 #menu li  {
     height: 100%;
-    width: 15%;
+    width: 125px;
     text-align: center;
     float: right;
     list-style-type: none;
@@ -211,12 +210,14 @@ footer > ul, li {
 
 #history-main {
     width: 100%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    height: 85%;
+    position: absolute;
+    top: 96px;
 }
 
 #center {
     width: 80%;
+    height: inherit;
     margin-inline: auto;
     background-color: white;
 }
@@ -242,10 +243,16 @@ footer > ul, li {
 #center p {
     font-size: 130%;
     line-height: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     min-width: 50%;
     margin-inline: auto;
     width: 1px;
+}
+
+center img {
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
 }
 
 #center span {
