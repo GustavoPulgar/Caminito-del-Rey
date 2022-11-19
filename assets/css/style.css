@@ -214,31 +214,39 @@ footer > ul, li {
 }
 
 #center {
-    width: 50%;
+    width: 80%;
     margin-inline: auto;
     background-color: white;
 }
 
 #center h2 {
     text-align: center;
-    font-family: 'Roboto', 'Cabin', sans-serif;
-    text-decoration: underline;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: 'Lora', sans-serif;
 }
 
 #center p {
-    font-size: 120%;
+    font-size: 130%;
     line-height: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+    min-width: 50%;
+    margin-inline: auto;
+    width: 1px;
+    text-align: justify;
 }
 
 #center span {
-    font-size: 160%;
+    font-size: 200%;
+    font-weight: bolder;
+    position: relative;
+    top: 5px;
 }
 
 /* index table and introduction */
 
 #contents-intro {
-    width: 100%;;
+    width: 100%;
 }
 #contents {
     width: 1px;
@@ -250,7 +258,6 @@ footer > ul, li {
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
     margin-inline: auto;
-    margin-bottom: 5%;
 }
 
 #contents > h2 {
@@ -283,7 +290,6 @@ footer > ul, li {
 
 #section-big-box {
     width: 100%;
-    height: auto;
 }
 
 /* gallery */
