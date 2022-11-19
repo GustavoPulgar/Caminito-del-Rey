@@ -24,12 +24,14 @@ header {
 
 #logo {
     height: inherit;
-    width: 35%;
+    width: 1px;
     text-decoration: none;
     background-color: #ea473c;
     border-right: 1px solid #212121;
     position: fixed;
     text-align: center;
+    min-width: 350px;
+    z-index: 1;
 }
 
 #logo > h1 {
