@@ -16,8 +16,10 @@ header {
     height: 10%;
     width: 100%;
     background-color: white;
+    border-bottom: 1px solid #212121;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 #logo {
@@ -91,7 +93,6 @@ nav {
     height: 100%;
     position: relative;
     left: 0;
-    border-top: 1px solid #212121;
     border-right: 1px solid #212121;
     
 }
@@ -157,7 +158,6 @@ nav {
     height: 100%;
     position: absolute;
     right: 0;
-    border-top: 1px solid #212121;
     
     background-image: url('../images/main-image.jpeg');
     background-repeat: no-repeat;
@@ -204,39 +204,26 @@ footer > ul, li {
     color: rgba(33, 33, 33, 0.5);
 }
 
-/* history */
+/* HISTORY */
 
 #history-main {
     width: 100%;
-    height: 85%;
     position: absolute;
     top: 10%;
 }
 
+#center {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
 #left-margin {
-    height: 100%;
-    width: 20%;
+    width: 15%;
+    height: ;
     position: absolute;
     left: 0;
-    background-color: rgba(255, 231, 195, 0.25);
-    border-top: 1px solid #212121;
-}
-
-#right-margin {
-    height: 100%;
-    width: 20%;
-    position: absolute;
-    right: 0;
-    background-color: rgba(255, 231, 195, 0.25);
-    border-top: 1px solid #212121;
-}
-
-#center {
-    width: 60%;
-    height: 100%;
-    position: absolute;
-    left: 20%;
-    border-top: 1px solid #212121;
+    background-color: #ffe7c3;
 }
 
 #center h2 {
@@ -308,22 +295,14 @@ footer > ul, li {
     overflow-wrap: break-word;
 }
 
-#construction-main {
+#section-big-box {
     width: 100%;
-    height: 100px;
-}
-
-#construction {
-    width: 80%;
     height: auto;
-    position: absolute;
-    left: 10%;
 }
 
-/* history sections */
-
-
-
+#section-big-box p {
+padding: 20px 0;
+}
 
 /* divs in lower part of history */
 
