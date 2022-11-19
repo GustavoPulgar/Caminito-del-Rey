@@ -220,6 +220,16 @@ footer > ul, li {
 }
 
 #center h2 {
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: 'Lora', sans-serif;
+    min-width: 50%;
+    width: 1px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+
+#center h3 {
     text-align: center;
     font-size: 200%;
     font-weight: bolder;
@@ -229,11 +239,10 @@ footer > ul, li {
 #center p {
     font-size: 130%;
     line-height: 30px;
-    margin-bottom: 75px;
+    margin-bottom: 70px;
     min-width: 50%;
     margin-inline: auto;
     width: 1px;
-    text-align: justify;
 }
 
 #center span {
@@ -258,6 +267,7 @@ footer > ul, li {
     background-color: #f5f4f0;
     border-top: 7px solid #e3120a;
     margin-inline: auto;
+    margin-top: 20px;
 }
 
 #contents > h2 {
