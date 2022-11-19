@@ -212,6 +212,7 @@ footer > ul, li {
     width: 100%;
     position: relative;
     top: 96px;
+    margin-bottom: 100px;
 }
 
 #center {
