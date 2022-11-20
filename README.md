@@ -24,7 +24,9 @@ The Caminito del Rey project was my very first front-end oriented project. This 
     The footer includes icons from all main social media pages and links the user to the official website of Caminito del Rey. All the links open in separte tabs.
 - History page
 ![](history.png)
+    - The history site offers a table of contents with clickable sections that take you to the section in the page. This sections also includes images and a video for visual appeal.
 - Images
+    - The images are high quality and offer the user an immersion into the traila and also visual appeal
 - Video
     - The video offers the user the experience of watching how the renovation project for the pathway was. The user can control the media, volume, etc.
 - Gallery
