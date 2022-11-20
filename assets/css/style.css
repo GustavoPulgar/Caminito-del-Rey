@@ -62,7 +62,7 @@ nav {
 
 #menu li  {
     height: 100%;
-    width: 125px;
+    width: 90px;
     text-align: center;
     float: right;
     list-style-type: none;
@@ -120,7 +120,7 @@ nav {
 
 #learn-more {
     position: absolute;
-    left: 30%;
+    right: 0;
     bottom: 10%;
     padding: 10px;
     background-color: #212121;
@@ -238,6 +238,7 @@ footer > ul, li {
     font-size: 200%;
     font-weight: bolder;
     font-family: 'Lora', sans-serif;
+    padding-top: 30px;
 }
 
 #center p {
@@ -247,10 +248,11 @@ footer > ul, li {
     min-width: 80%;
     margin-inline: auto;
     width: 1px;
+    padding-top: 30px;
 }
 
 center img {
-    margin-bottom: 35px;
+    width: 300px;
     display: block;
     text-align: center;
     object-fit: contain;
@@ -312,8 +314,14 @@ center img {
     width: 100%;
 }
 
-#train-box {
-    height: 300px;    
+.image-box {
+    height: 300px;
+    overflow: hidden;   
+}
+
+#video-box {
+    margin-inline: auto;
+    margin-bottom: 200px;
 }
 
 .image {
@@ -321,6 +329,10 @@ center img {
     height: 400px;
     object-fit: contain;
     overflow: hidden;
+}
+
+#video {
+    text-align: center;
 }
 /* gallery */
 
@@ -333,4 +345,71 @@ center img {
 
 #photos > img {
     width: 100%;
+}
+
+/* For screens 1400px and lower*/
+@media screen and (max-width: 1400px) {
+    #big-letters h2 {
+        font-size: 400% ;
+    }
+}
+
+/* For screens 1000px and lower*/
+@media screen and (max-width: 1000px) {
+    #big-letters h2 {
+        font-size: 300% ;
+    }
+
+    #center {
+        width: 90%;
+    }
+}
+
+/* For screens 800px and lower*/
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+
+    #homepage-image {
+        width: 100%;
+    }
+
+    #big-letters h2 {
+        color: white;
+    }
+
+    #big-letters {
+        border: none;
+    }
+
+    #learn-more {
+        background-color:#e3120a;
+        color: white
+    }
+}
+
+/* For screens 700px and lower*/
+@media screen and (max-width: 700px) {
+    #logo{
+        min-width: 100px;
+    }
+
+    #logo h1 {
+        font-size: small;
+        position: absolute;
+        left: 0;
+    }
+
+    nav {
+        width: 85%;
+    }
+
+    nav li {
+        font-size: small;
+    }
+
+    #learn-more, #learn-more2 {
+        display: none;
+    }
 }
