@@ -2,7 +2,9 @@
 
 The Caminito del Rey project was my very first front-end oriented project. This project is aimed at showcasing the history of The Caminito del Rey, a southern Spanish trail with tons of forgetten history over the past decades due to its abandoment. As this location gains popularity after its repair and subsequent reopening, more and more tourists are visiting it. This site is aimed at all those history and travel enthusiasts that would like to read more about the history of this pathway.
 
+
 ## Features
+
 ### Exisitng Features
 - Navigation bar and header
     - Features a clickable logo at the top of the page with the name of the trail.
