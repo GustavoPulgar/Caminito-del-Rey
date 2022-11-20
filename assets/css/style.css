@@ -10,7 +10,7 @@ body {
     color: #212121;
 }
 
-/* header, logo and ribbon */
+/* header and logo */
 
 header {
     height: 95px;
@@ -88,7 +88,7 @@ nav {
     border-top: 5px solid #ea473c
 }
 
-/* left section */
+/* left section of homepage */
 
 #big-letters {
     width: 35%;
@@ -116,7 +116,7 @@ nav {
     color: #ea473c;
 }
 
-/* learn more */
+/* learn more button*/
 
 #learn-more {
     position: absolute;
@@ -145,7 +145,7 @@ nav {
     color: #ffe7c3;
 }
 
-/* main section */
+/* homepage image */
 
 #main {
     width: 100%;
@@ -206,7 +206,7 @@ footer > ul, li {
     color: rgba(33, 33, 33, 0.5);
 }
 
-/* HISTORY */
+/* history */
 
 #history-main {
     width: 100%;
@@ -314,14 +314,17 @@ center img {
     width: 100%;
 }
 
-.image-box {
-    height: 300px;
-    overflow: hidden;   
-}
+/* video and images */
 
 #video-box {
     margin-inline: auto;
     margin-bottom: 200px;
+}
+
+.video {
+    display: block;
+    text-align: center;
+    object-fit: contain; 
 }
 
 .image {
@@ -331,9 +334,6 @@ center img {
     overflow: hidden;
 }
 
-#video {
-    text-align: center;
-}
 /* gallery */
 
 #photos {
