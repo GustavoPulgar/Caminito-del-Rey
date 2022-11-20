@@ -62,7 +62,7 @@ nav {
 
 #menu li  {
     height: 100%;
-    width: 90px;
+    width: 120px;
     text-align: center;
     float: right;
     list-style-type: none;
@@ -407,6 +407,7 @@ center img {
 
     nav li {
         font-size: small;
+        width: 80px;
     }
 
     #learn-more, #learn-more2 {
