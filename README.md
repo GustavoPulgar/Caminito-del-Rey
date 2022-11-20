@@ -24,7 +24,7 @@ The Caminito del Rey project was my very first front-end oriented project. This 
     The footer includes icons from all main social media pages and links the user to the official website of Caminito del Rey. All the links open in separte tabs.
 - History page
 ![](history.png)
-    - The history site offers a table of contents with clickable sections that take you to the section in the page. This sections also includes images and a video for visual appeal.
+    - The history site offers a table of contents with clickable sections that take you to the section in the page. This sections also includes images and a video for visual appeal. The page is centered and there was inspiation taken from The Economist website.
 - Images
     - The images are high quality and offer the user an immersion into the traila and also visual appeal
 - Video
@@ -60,6 +60,7 @@ The project was deployed using GitHub pages.
 - The content in the history were taken in its majority articles in the DiarioSUr newspaper and from MalagaWeb travel blogs.
 - The icons in the header, footer and LEARN MORE button were taken from Font Awesome.
 -All the fonts were imported from Google Fonts
+- The code for the gallery was taken from the Love Running mini project.
 ### Media
  - All the images except for the black and white image (old-photo.jpg) were taken from Adobe Stock images. 
 - The video of the reconstruction process was downloaded from YouTube.
