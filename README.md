@@ -4,10 +4,17 @@ The Caminito del Rey project was my very first front-end oriented project. This 
 
 ## Features
 ### Exisitng Features
-- Navigation bar
+- Navigation bar and header
+    - Features a clickable logo at the top of the page with the name of the trail.
+    - The other navigation links are at the right, Home, History and Gallery link to different page.
+    - The navigation menu feature relatable icons and a contrasting letters and background.
+    - The navigation clearly tells the user the name of the club and website and makes the different sections of information easy to find.
 - The homepage image
+    - The homepage image shows a wide image of the trail and captures the attention of the user.
 - The 'Learn More' button
+    - The 'LEARN MORE' button incites a clickable action withthe hover action and directs the user to the history page.  
 - The footer
+    The footer includes icons from all main social media pages and links the user to the official website of Caminito del Rey. All the links open in separte tabs.
 - History page
 - Images
 - Video
