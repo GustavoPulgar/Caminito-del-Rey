@@ -10,15 +10,19 @@ The Caminito del Rey project was my very first front-end oriented project. This 
     - The navigation menu feature relatable icons and a contrasting letters and background.
     - The navigation clearly tells the user the name of the club and website and makes the different sections of information easy to find.
 - The homepage image
-    - The homepage image shows a wide image of the trail and captures the attention of the user.
+    - The homepage image shows a wide image of the trail and captures the attention of the user. As the viewport width decreases the image take over the whole width in order to make is more aesthetic and.
+- Homepage heading next to image.
+    - The homepage heading contrast perfectly its background with that of the font. Also, As the viewport decreases in width, the font also decreases size until the background becomes the image itself.  
 - The 'Learn More' button
-    - The 'LEARN MORE' button incites a clickable action withthe hover action and directs the user to the history page.  
+    - The 'LEARN MORE' button incites a clickable action withthe hover action and directs the user to the history page. The hover action changes the color of the background, font and border of the button. As the viewport width decreases, the button changes color to contrast better with the image behind. 
 - The footer
     The footer includes icons from all main social media pages and links the user to the official website of Caminito del Rey. All the links open in separte tabs.
 - History page
 - Images
 - Video
+    - The video offers the user the experience of watching how the renovation project for the pathway was. The user can control the media, volume, etc.
 - Gallery
+    - The gallery displays various photos of the trail using columns. The number of columns reduces as the width of the viewport decreases.
 
 ### Feature Left to Implement
 - Page with timeline of events
