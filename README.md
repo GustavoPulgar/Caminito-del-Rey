@@ -47,7 +47,7 @@ The project was deployed using GitHub pages.
     - From the source section drop-down menu, select the Master Branch
     - Once the mster branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indiacate the sucessful deployment.
 
-    The live link can be found here - 
+    The live link can be found here - https://gustavopulgar.github.io/Caminito-del-Rey/index.html
 ## Credits
 ### Content
 - The content in the history were taken in its majority articles in the DiarioSUr newspaper and from MalagaWeb travel blogs.
